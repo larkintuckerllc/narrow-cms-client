@@ -1,6 +1,6 @@
 {
   "name": "narrow-cms-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The client (AngularJS) component for NarrowCMS. NarrowCMS is a light-weight content management system for MEAN stack developers.",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "url": "https://github.com/larkintuckerllc/narrow-cms-client.git"
   },
   "devDependencies": {
+    "bower-json": "^0.5.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.5.2",
     "gulp-rename": "^1.2.2",
