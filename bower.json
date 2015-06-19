@@ -1,0 +1,23 @@
+{
+  "name": "narrow-cms-client",
+  "description": "The client (AngularJS) component for NarrowCMS. NarrowCMS is a light-weight content management system for MEAN stack developers.",
+  "version": "0.0.1",
+  "main": "dist/narrow-cms-client.js",
+  "license": "MIT",
+  "ignore": [],
+  "keywords": [
+    "CMS", "content", "management", "system", "MEAN", "MongoDB", "Express", "AngulerJS", "Node.js"
+  ],
+  "authors": [
+    "John Tucker <john@larkintuckerllc.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larkintuckerllc/narrow-cms-client.git"
+  },
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-cookies": "~1.4.0",
+    "angular-resource": "~1.4.0",
+  }
+}
