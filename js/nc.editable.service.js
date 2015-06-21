@@ -11,7 +11,7 @@
   */
   service.$inject = ['$resource', 'ncConfigService', 'ncAuthService'];
   function service($resource, ncConfigService, ncAuthService) {
-    return $resource(ncConfigService.apiRootURI + '/editables/:_id', {}, {
+    return $resource(ncConfigService.apiRootURI + 'editables/:_id', {}, {
       save: {method: 'POST',
         headers: {Authorization: authorization}},
       query: {method: 'GET', isArray: true,
