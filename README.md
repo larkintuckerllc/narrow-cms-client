@@ -8,6 +8,8 @@ We have provided an example implementation of NarrowCMS that effectively is the 
 
 ## requirements
 
+This client component is designed to be used in conjunction with NarrowCMS server.
+
 * Internet Explorer v9 or greater for public facing elements.
 * Internet Explorer v10 or greater for administrative interface.
 * Updated versions of all other browsers
@@ -92,7 +94,7 @@ $scope.example1.$update();
 
 While not shown in this simple example, these methods can be called with callbacks or used as promises.
 
-### ncEditable
+### directive: ncEditable
 
 The following is an example of using the directive.
 
