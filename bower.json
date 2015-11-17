@@ -1,7 +1,7 @@
 {
   "name": "narrow-cms-client",
   "description": "The client (AngularJS) component for NarrowCMS. NarrowCMS is a light-weight content management system for MEAN stack developers.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "dist/narrow-cms-client.js",
   "license": "MIT",
   "ignore": [],
