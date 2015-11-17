@@ -9,6 +9,7 @@ gulp.task('default', function() {
     './js/nc.config.service.js',
     './js/nc.auth.service.js',
     './js/nc.editable.service.js',
+    './js/nc.cachededitable.service.js',
     './js/nc.editable.directive.js'
     ])
     .pipe(concat('narrow-cms-client.js'))
